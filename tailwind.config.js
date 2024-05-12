@@ -13,6 +13,10 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        "pattern1": "url('https://shuffle.dev/saturn-assets/images/testimonials/orange-light.png')",
+        "pattern2" : "url('https://shuffle.dev/saturn-assets/images/testimonials/blue-light.png')",
+      },
     },
     screens: {
       xs: "480px",

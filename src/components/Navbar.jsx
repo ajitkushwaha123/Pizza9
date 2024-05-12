@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex md:px-[80px] px-[20px] sticky top-0 bg-white shadow-sm border-2 py-3 justify-between items-center navbar">
+    <nav className="w-full flex bg-primary text-white z-100 md:px-[80px] px-[20px] top-0 shadow-sm border-2 py-3 justify-between items-center navbar">
       <p className="text-[28px] font-semibold font-serif">Pizza</p><img src={logo} alt="pizza9" className="w-[32px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-center items-center flex-1">
@@ -17,7 +17,7 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-primary" : "text-dimBlack"
+              active === nav.title ? "text-[#f1f1f1]" : "text-dimBlack"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
@@ -26,7 +26,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <Button />
+      <Button title="Get Franchise"/>
       
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
