@@ -1,5 +1,6 @@
 import './App.css'
 import Footer from './components/Footer'
+import Form from './components/Form'
 import Gallery from './components/Gallery'
 import Hero from './components/Hero'
 import Journey from './components/Journey'
@@ -16,12 +17,13 @@ function App() {
       <Navbar />
       <Hero />
       {/* <Footer /> */}
-      <Gallery />
+      {/* <Gallery /> */}
       <Social />
       <Menu />
       <Review />
       <Outlets />
       <Journey />
+      <Form />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { insta2, insta3 } from '../assets'
 import Button from './Button'
+import Title from './Title';
 
 const Social = () => {
     const [toggle , setToggle] = useState(0);
@@ -19,17 +20,30 @@ const Social = () => {
         console.log("click")
     }
   return (
-    <div className='w-full px-[100px] bg-primary rounded-lg text-white h-screen justify-center items-center py-[100px] flex'>
-       <div className='w-[50%] px-[40px]'>
-          <h2 className='text-[66px] leading-12 font-black font-poppins'><span className='text-[white]'>Follow us</span> on <span className='text-[white]'>Instagram</span> </h2>
-          <p className='text-[22px] py-[28px] text-[#dbdbdb] '>Get to know about us better by connecting with us personally over Instagram</p>
+    <div className='w-full md:px-[100px] px-[30px] bg-pattern1 rounded-lg flex-col  sm:flex-row justify-center items-center py-[100px] flex'>
+       <div className='sm:w-[50%] md:px-[40px]'>
+          {/* <h2 className='sm:text-[66px] text-[38px] leading-10  text-center font-black font-poppins'><span className='text-[white]'>Follow us</span> on <span className='text-[white]'>Instagram</span> </h2> */}
+          <Title preTitle={"Our"} color={"black"} title={"Socials"}/>
+          <p className='text-[22px] py-[28px] font-poppins  text-center'>Get to know about us better by connecting with us personally over Instagram</p>
 
-          <Button func={changeMockup} border={"white"} title="Instagram"/>
+         <div className='flex justify-center items-center'>
+         <Button className='text-center items-center'
+                   title={"Instagram"}
+                   func={changeMockup}
+                    hoverColor={"white"}
+                    bgColor={"primary"}
+                    borderColor={"white"}
+                    textColor={"white"}
+                    hoverText={"primary"}
+                    bgHover={"white"}
+                    hoverBorder={"primary"}
+                   />
+         </div>
        </div>
 
-       <div className='w-[50%] pl-[40px] ml-[40px]'>
+       <div className='sm:w-[50%] pt-[40px]  bg-pattern2  pl-[40px] ml-[40px]'>
          {toggle == 0 &&
-            <img className='w-[80%]' src={insta2}/>
+            <img className='w-[90%]' src={insta2}/>
          }
          {toggle != 0 &&
             <img className='w-[100%]' src={insta3}/>
