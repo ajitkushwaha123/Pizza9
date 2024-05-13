@@ -20,8 +20,8 @@ const Social = () => {
         console.log("click")
     }
   return (
-    <div className='w-full md:px-[100px] px-[30px] bg-pattern1 rounded-lg flex-col  sm:flex-row justify-center items-center py-[100px] flex'>
-       <div className='sm:w-[50%] md:px-[40px]'>
+    <div className='w-full md:px-[100px] px-[30px] rounded-lg flex-col  sm:flex-row justify-center items-center py-[100px] flex'>
+       <div className='sm:w-[50%] md:px-[40px] '>
           {/* <h2 className='sm:text-[66px] text-[38px] leading-10  text-center font-black font-poppins'><span className='text-[white]'>Follow us</span> on <span className='text-[white]'>Instagram</span> </h2> */}
           <Title preTitle={"Our"} color={"black"} title={"Socials"}/>
           <p className='text-[22px] py-[28px] font-poppins  text-center'>Get to know about us better by connecting with us personally over Instagram</p>
@@ -41,7 +41,7 @@ const Social = () => {
          </div>
        </div>
 
-       <div className='sm:w-[50%] pt-[40px]  bg-pattern2  pl-[40px] ml-[40px]'>
+       <div className='sm:w-[50%] pt-[40px] pl-[40px] ml-[40px]'>
          {toggle == 0 &&
             <img className='w-[90%]' src={insta2}/>
          }
