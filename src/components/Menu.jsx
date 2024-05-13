@@ -13,7 +13,7 @@ const Menu = () => {
 
         <div className='bg-[#EDF000] py-[50px] flex md:flex-row flex-col justify-center items-center'>
            <div className='md:w-[50%] w-[100%]'>
-              <p className='font-semibold ] text-center m:text-start md:px-[40px] px-[20px] font-poppins md:text-[40px] text-[20px] text-primary'>
+              <p className='font-semibold ] text-center md:text-start md:px-[40px] px-[20px] font-poppins md:text-[40px] text-[20px] text-primary'>
                  Here’s a treat for your taste buds! 
                  <br />
                  Feeling too lazy to step out?
