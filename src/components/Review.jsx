@@ -8,7 +8,7 @@ import Title from './Title';
 
 const Review = () => {
   return (
-    <div>
+    <div id='testimonials' className=''>
       <Title preTitle="OUR" title="CUSTOMERS" />
 
       <div className='py-[80px] bg-pattern2'>

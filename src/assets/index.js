@@ -7,4 +7,5 @@ import insta3 from "./insta3.png";
 import scooter from "./scooter.png";
 import scooter1 from "./scooter1.png";
 import scooter3 from "./scooter3.png";
-export {logo , menu , close , insta , insta2 , insta3 , scooter , scooter3 , scooter1};
+import insta4 from "./insta4.png";
+export {logo , insta4, menu , close , insta , insta2 , insta3 , scooter , scooter3 , scooter1};

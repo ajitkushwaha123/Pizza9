@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { insta2, insta3 } from '../assets'
+import { insta2, insta3, insta4 } from '../assets'
 import Button from './Button'
 import Title from './Title';
 
@@ -20,7 +20,7 @@ const Social = () => {
         console.log("click")
     }
   return (
-    <div className='w-full md:px-[100px] px-[30px] rounded-lg flex-col  sm:flex-row justify-center items-center py-[100px] flex'>
+    <div className='w-full md:px-[100px] bg-pattern1 rounded-lg flex-col  sm:flex-row justify-center items-center py-[100px] flex'>
        <div className='sm:w-[50%] md:px-[40px] '>
           {/* <h2 className='sm:text-[66px] text-[38px] leading-10  text-center font-black font-poppins'><span className='text-[white]'>Follow us</span> on <span className='text-[white]'>Instagram</span> </h2> */}
           <Title preTitle={"Our"} color={"black"} title={"Socials"}/>
@@ -41,13 +41,13 @@ const Social = () => {
          </div>
        </div>
 
-       <div className='sm:w-[50%] pt-[40px] pl-[40px] ml-[40px]'>
-         {toggle == 0 &&
-            <img className='w-[90%]' src={insta2}/>
-         }
-         {toggle != 0 &&
-            <img className='w-[100%]' src={insta3}/>
-         }
+       <div className='sm:w-[50%] pt-[40px] sm:pl-[100px] sm:ml-[100px]'>
+         {/* {toggle == 0 && */}
+            <img className='sm:w-[50%] px-[40px]' src={insta4}/>
+         {/* } */}
+         {/* {toggle != 0 &&
+            <img className='h-[60%]' src={insta4}/>
+         } */}
        </div>
     </div>
   )

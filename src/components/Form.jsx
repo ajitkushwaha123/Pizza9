@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Form = () => {
   return (
-    <div className='w-full flex flex-col py-[100px] justify-center items-center px-[15px] sm:px-[100px] bg-pattern2 '>
+    <div id='franchise' className='w-full flex flex-col py-[100px] justify-center items-center px-[15px] sm:px-[100px] bg-pattern2 '>
       <Title preTitle={"Get"} title={"Franchise"}/>
       <form className='md:w-[40%] pb-[40px] shadow-lg rounded-lg shadow-indigo-500/40'>
       <div className="mt-4 grid rounded-lg px-[30px] py-[40px] grid-cols-2 gap-y-6 sm:grid-cols-2 sm:gap-x-4">

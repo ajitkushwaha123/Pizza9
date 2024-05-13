@@ -4,7 +4,7 @@ import { scooter, scooter1, scooter3 } from '../assets'
 
 const Menu = () => {
   return (
-    <div className='w-full overflow-x-hidden pb-[100px]'>
+    <div id='discover' className='w-full overflow-x-hidden pb-[100px]'>
        <div className='bg-[#EDF000] md:pt-[40px] md:px-[100px] flex flex-col justify-center items-center px-[30px]'>
            <Title title={"DISCOVER"}/>
           <h2 className='text-center font-medium text-[18px] font-poppins py-[16px]'>Our Recommeded Menu</h2>

@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex bg-primary text-white z-100 md:px-[80px] px-[10px] top-0 shadow-sm border-2 py-3 justify-between items-center navbar">
+    <nav id='home' className="w-full flex bg-primary text-white z-100 md:px-[80px] px-[10px] top-0 shadow-sm border-2 py-3 justify-between items-center navbar">
       <p className="text-[28px] font-semibold font-serif">Pizza</p><img src={logo} alt="pizza9" className="w-[32px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-center items-center flex-1">
@@ -27,6 +27,7 @@ const Navbar = () => {
       </ul>
 
       <div className="hidden sm:block">
+      <a href="#franchise">
       <Button className='text-center flex-1 justify-end items-center'
                    title={"GET FRANCHISE"}
                     hoverColor={"primary"}
@@ -36,13 +37,16 @@ const Navbar = () => {
                     hoverText={"primary"}
                     bgHover={"primary"}
                     hoverBorder={"white"}
+                    // textSize={"12px"}
                    />
+      </a>
       </div>
 
      
       
       <div className="sm:hidden flex flex-1 justify-end items-center">
 
+      <a id="#franchise">
       <Button className='text-center flex flex-1 justify-end items-center'
                    title={"GET FRANCHISE"}
                     hoverColor={"primary"}
@@ -52,7 +56,9 @@ const Navbar = () => {
                     hoverText={"primary"}
                     bgHover={"primary"}
                     hoverBorder={"white"}
+                    textSize={"12px"}
                    />
+      </a>
         <img
           src={toggle ? close : menu}
           alt="menu"

@@ -5,15 +5,19 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "about",
-    title: "About Us",
+    id: "discover",
+    title: "Discover",
   },
   {
-    id: "gallery",
-    title: "Gallery",
+    id: "journey",
+    title: "Journey",
   },
   {
-    id: "contact",
-    title: "Contact Us",
+    id: "our-outlets",
+    title: "Our Outlets",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
   },
 ];

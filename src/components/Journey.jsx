@@ -3,7 +3,7 @@ import Title from './Title'
 
 const Journey = () => {
   return (
-    <div className='w-full py-[40px] bg-pattern1 flex justify-center items-center flex-col md:px-[100px]'>
+    <div id='journey' className='w-full py-[40px] bg-pattern1 flex justify-center items-center flex-col md:px-[100px]'>
       <Title title={"JOURNEY"}/>
 
       <div className='w-[100%] flex justify-center items-center'>

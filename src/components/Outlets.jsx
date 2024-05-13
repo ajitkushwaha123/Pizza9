@@ -3,7 +3,7 @@ import Title from './Title'
 
 const Outlets = () => {
   return (
-    <div className='py-[60px]'>
+    <div id='our-outlets' className='py-[60px]'>
       <Title preTitle={"OUR"} title={"OUTLETS"}/>
 
       <div className='px-[40px] bg-pattern2 rounded-lg py-[40px] flex flex-col sm:flex-row justify-center items-center'>
