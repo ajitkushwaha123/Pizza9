@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex bg-primary text-white z-100 md:px-[80px] px-[20px] top-0 shadow-sm border-2 py-3 justify-between items-center navbar">
+    <nav className="w-full flex bg-primary text-white z-100 md:px-[80px] px-[10px] top-0 shadow-sm border-2 py-3 justify-between items-center navbar">
       <p className="text-[28px] font-semibold font-serif">Pizza</p><img src={logo} alt="pizza9" className="w-[32px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-center items-center flex-1">
