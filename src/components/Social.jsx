@@ -43,7 +43,7 @@ const Social = () => {
 
        <div className='sm:w-[50%] pt-[40px] sm:pl-[100px] sm:ml-[100px]'>
          {/* {toggle == 0 && */}
-            <img className='sm:w-[50%] px-[40px]' src={insta4}/>
+            <img className='sm:w-[50%] px-[40px] sm:px-[0]' src={insta4}/>
          {/* } */}
          {/* {toggle != 0 &&
             <img className='h-[60%]' src={insta4}/>
