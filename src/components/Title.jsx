@@ -3,7 +3,7 @@ import React from 'react';
 const Title = ({ title, preTitle, color }) => {
   return (
     <div>
-      <h2 className={`md:text-5xl text-5xl text-center font-poppins font-bold text-${color}`}>
+      <h2 className={`md:text-5xl uppercase text-5xl text-center font-poppins font-bold text-${color}`}>
         {preTitle} 
         <br className='md:hidden'/>
          <span className="text-primary"> {title}</span>

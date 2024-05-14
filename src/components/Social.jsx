@@ -2,6 +2,11 @@ import React, { useState } from 'react'
 import { insta2, insta3, insta4 } from '../assets'
 import Button from './Button'
 import Title from './Title';
+import { FaInstagram } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const Social = () => {
     const [toggle , setToggle] = useState(0);
@@ -26,7 +31,7 @@ const Social = () => {
           <Title preTitle={"Our"} color={"black"} title={"Socials"}/>
           <p className='text-[22px] py-[28px] font-poppins  text-center'>Get to know about us better by connecting with us personally over Instagram</p>
 
-         <div className='flex justify-center items-center'>
+         {/* <div className='flex justify-center items-center'>
          <Button className='text-center items-center'
                    title={"Instagram"}
                    func={changeMockup}
@@ -38,7 +43,39 @@ const Social = () => {
                     bgHover={"white"}
                     hoverBorder={"primary"}
                    />
-         </div>
+         </div> */}
+
+         <div className='font-poppins flex justify-center items-center'>
+      <button
+        className={`hover:bg-white mx-[8px] border-2 border-primary flex bg-primary hover:border-2 hover:border-primary text-white hover:text-primary font-medium font-poppins justify-center  items-center p-2 text-[18px] rounded-md`}
+      >
+        <FaInstagram />
+      </button>
+
+      <button
+        className={`hover:bg-white mx-[8px] border-2 border-primary flex bg-primary hover:border-2 hover:border-primary text-white hover:text-primary font-medium font-poppins justify-center  items-center p-2 text-[18px] rounded-md`}
+      >
+        <IoLogoYoutube />
+      </button>
+
+      <button
+        className={`hover:bg-white mx-[8px] border-2 border-primary flex bg-primary hover:border-2 hover:border-primary text-white hover:text-primary font-medium font-poppins justify-center  items-center p-2 text-[18px] rounded-md`}
+      >
+        <FaWhatsapp />
+      </button>
+
+      <button
+        className={`hover:bg-white mx-[8px] border-2 border-primary flex bg-primary hover:border-2 hover:border-primary text-white hover:text-primary font-medium font-poppins justify-center  items-center p-2 text-[18px] rounded-md`}
+      >
+        <FaFacebookF />
+      </button>
+
+      <button
+        className={`hover:bg-white mx-[8px] border-2 border-primary flex bg-primary hover:border-2 hover:border-primary text-white hover:text-primary font-medium font-poppins justify-center  items-center p-2 text-[18px] rounded-md`}
+      >
+        <FaTwitter />
+      </button>
+          </div>
        </div>
 
        <div className='sm:w-[50%] pt-[40px] sm:pl-[100px] sm:ml-[100px]'>

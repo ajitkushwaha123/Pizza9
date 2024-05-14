@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaShopLock } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 const Button = ({ title , func, border , textSize , hoverColor , bgHover, bgColor , borderColor , hoverBorder , textColor , hoverText}) => {
   return (

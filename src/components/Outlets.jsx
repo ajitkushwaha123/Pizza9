@@ -4,7 +4,7 @@ import Title from './Title'
 const Outlets = () => {
   return (
     <div id='our-outlets' className='py-[60px]'>
-      <Title preTitle={"OUR"} title={"OUTLETS"}/>
+      <Title preTitle={"Our"} title={"Outlets"}/>
 
       <div className='px-[40px] bg-pattern2 rounded-lg py-[40px] flex flex-col sm:flex-row justify-center items-center'>
           <div className='border-2 sm:mr-[30px] my-[30px]  shadow-lg shadow-indigo-500/40 rounded-md '>
