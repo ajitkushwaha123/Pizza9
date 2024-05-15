@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Hero = () => {
   return (
-    <div className='md:h-screen bg-pattern2 bg-no-repeat bg-cover flex flex-col md:flex-row justify-center items-center w-full'>
+    <div className='sm:h-screen bg-pattern4 bg-no-repeat bg-cover flex flex-col md:flex-row justify-center items-center w-full'>
        <div className='w-[50%] h-screen md:px-[50px] flex justify-center flex-col items-center'>
        {/* <img className='w-[300px]' src={chef}/> */}
           <h2 className='md:text-[80px] text-[28px] font-poppins font-bold'> Tasty Food </h2>
@@ -31,7 +31,7 @@ const Hero = () => {
 
 
       
-       <div className='w-[60%]  bg-pattern2 flex justify-center items-center'>
+       <div className='w-[60%] bg-pattern2 flex justify-center items-center'>
           <img className='absolute w-[150px] sm:w-[220px] sm:top-16 top-20 right-0' src={tomato}/>
           <img className='w-[600px]' src={pizza2}/>
 
