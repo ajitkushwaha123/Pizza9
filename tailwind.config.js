@@ -16,6 +16,8 @@ module.exports = {
       backgroundImage: {
         "pattern1": "url('https://shuffle.dev/saturn-assets/images/testimonials/orange-light.png')",
         "pattern2" : "url('https://shuffle.dev/saturn-assets/images/testimonials/blue-light.png')",
+        "pattern3" : "url('./assets/background/hero.png')",
+        "pattern4" : "url('https://radiustheme.com/demo/wordpress/themes/panpie/wp-content/uploads/2021/03/slider_bg01-1-50x100.jpg')"
       },
     },
     screens: {

@@ -6,7 +6,7 @@ const Button = ({ title , func, border , textSize , hoverColor , bgHover, bgColo
   return (
     <div className='font-poppins'>
       <button
-        onClick={() => { func() }}
+        onClick={func}
         className={`hover:bg-${bgHover} text-[${textSize}] sm:text-[15px] border-2 border-${border} flex bg-${bgColor} border-2 border-${borderColor} hover:border-2 hover:border-${hoverBorder} text-${textColor} hover:text-${hoverText} font-medium font-poppins justify-center items-center sm:px-4 px-3 sm:py-2 py-2 rounded-md`}
       >
         <FaShopLock className='mr-[8px]' /> {title}
