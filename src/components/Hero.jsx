@@ -5,8 +5,8 @@ import Button from './Button'
 
 const Hero = () => {
   return (
-    <div className='sm:h-screen bg-pattern4 bg-no-repeat bg-cover flex flex-col md:flex-row justify-center items-center w-full'>
-       <div className='w-[50%] ml-[100px] h-screen md:px-[100px] flex justify-center flex-col items-center'>
+    <div className='md:h-screen bg-pattern4 bg-no-repeat bg-cover flex flex-col md:flex-row justify-center items-center w-full'>
+       <div className='md:w-[50%] px-[50px] py-[60px] md:ml-[100px] md:h-screen md:px-[100px] flex justify-center flex-col items-center'>
        {/* <img className='w-[300px]' src={chef}/> */}
           <h2 className='md:text-[80px] text-[28px] font-poppins font-bold'> Tasty Food </h2>
           <h2 className={`md:text-[80px] text-[40px] font-poppins font-bold text-primary`}> 
@@ -33,11 +33,10 @@ const Hero = () => {
 
 
       
-       <div className='w-[60%] bg-pattern2 flex justify-center items-center'>
-          <img className='absolute w-[150px] sm:w-[270px] sm:h-270px sm:top-16 top-20 right-0' src={tomato}/>
-          <img className='w-[800px] h-[600px] mr-[150px]' src={pizza2}/>
-
-          <img className='absolute w-[150px] sm:w-[220px] bottom-10 left-10' src={mirch}/> 
+       <div className='md:w-[60%] bg-pattern2 flex justify-center items-center'>
+          <img className='absolute md:block hidden w-[150px] sm:w-[270px] sm:h-270px sm:top-16 top-20 right-0' src={tomato}/>
+          <img className='md:w-[800px] md:h-[600px] my-[30px] w-[500px] h-[400px]  md:mr-[150px]' src={pizza2}/>
+          <img className='absolute w-[150px] sm:w-[220px] bottom-20 left-10' src={mirch}/> 
        </div>
     </div>
   ) 
